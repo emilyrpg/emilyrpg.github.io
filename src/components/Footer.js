@@ -3,6 +3,7 @@ import React from 'react';
 class Footer extends React.Component {
     render(){
         return(
+			<div className="footer-container">
             <footer id="footer">
 					<ul className="icons">
 						<li><a href="#" className="icon brands alt fa-twitter"><span className="label">Twitter</span></a></li>
@@ -16,6 +17,7 @@ class Footer extends React.Component {
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 			</footer>
+			</div>
         )
     }
 }
