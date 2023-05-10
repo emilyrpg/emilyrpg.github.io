@@ -3,22 +3,30 @@ import React from 'react';
 class Home extends React.Component {
     render() {
         return (
-            <div className="is-preload landing">
-		<div id="page-wrapper">
+            <div className="container">
+				<div id="page-wrapper">
+					<section id="banner">
+						<div className="content">
+							<header>
+								<h2>Welcome to My World</h2>
+								<p>And there are no hoverboards or flying cars.<br />
+								Just apps. Lots of mother flipping apps.</p>
+							</header>
+							<span className="image">
+								<img src="ms_char3.png" alt="" className="rounded-image"/>
+							</span>
+						</div>
+					</section>
+				</div>
+			</div>
 
-				<section id="banner">
-					<div className="content">
-						<header>
-							<h2>The future has landed</h2>
-							<p>And there are no hoverboards or flying cars.<br />
-							Just apps. Lots of mother flipping apps.</p>
-						</header>
-						<span className="image"><img src="images/pic01.jpg" alt="" /></span>
-					</div>
-					<a href="#one" className="goto-next scrolly">Next</a>
-				</section>
+		)
+	}
+}
 
-				<section id="one" className="spotlight style1 bottom">
+export default Home;
+
+				/* <section id="one" className="spotlight style1 bottom">
 					<span className="image fit main"><img src="images/pic02.jpg" alt="" /></span>
 					<div className="content">
 						<div className="container">
@@ -136,13 +144,4 @@ class Home extends React.Component {
 							</div>
 						</form>
 					</div>
-				</section>
-
-		</div>
-
-	</div>
-        )
-    }
-}
-
-export default Home;
+				</section> */
